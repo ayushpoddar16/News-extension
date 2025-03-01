@@ -1,0 +1,21 @@
+{
+    "name": "Poddar News",  // Name of the extension
+    "description": "Poddar News is a news app fetching the latest cricket news.",  // Short description of what the extension does
+    "version": "1.0",  // Version of the extension
+    "manifest_version": 3,  // Manifest version, currently version 3 is the latest
+    "permissions": [  // Permissions required by the extension
+        "storage",  // Allows the extension to use Chrome's storage API
+        "activeTab",  // Grants permission to access the currently active tab
+        "scripting"  // Allows the extension to inject scripts into the page
+    ],
+    "host_permissions": [  // Defines the host permissions to allow access to external websites
+        "https://newsapi.org/*"  // Allows access to the news API for fetching news data
+    ],
+    "action": {  // The action for the extension (what happens when the user interacts with the extension icon)
+        "default_popup": "popup.html",  // The HTML file shown when the extension icon is clicked
+        "default_icon": "icon.png"  // The icon shown in the extension bar
+    },
+    "icons": {  // Defines different icon sizes for the extension
+        "128": "icon.png"  // 128x128 pixel icon used for the extension in different contexts (such as the extension page)
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The character encoding for the document -->
+    <meta charset="UTF-8">
+    
+    <!-- The viewport meta tag ensures the page is responsive and scales correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage, which appears in the browser tab -->
+    <title>Poddar News</title>
+    
+    <!-- Link to an external CSS file to style the page -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section, typically contains the main title or navigation of the website -->
+    <header>
+        <h1>Today's News</h1>
+    </header>
+
+    <!-- Main content of the webpage -->
+    <main>
+        <!-- This div contains a list of news articles -->
+        <div class="news-list" id="news-list">
+            <p>Click on a news title to view details:</p>
+            
+            <!-- Unordered list (ul) where news items will be dynamically added -->
+            <ul id="news-items">
+                <!-- Example of a list item, which would be populated with actual news content from a script -->
+                <!-- <li><a href="#">News Title Here</a></li> -->
+            </ul>
+        </div>
+
+        <!-- This div will display details for a specific selected news item -->
+        <div class="news-details" id="news-details">
+            <!-- Heading for the details section -->
+            <h2>News Details</h2>
+            
+            <!-- A paragraph that will show the details of the selected news -->
+            <p id="news-content">Select a news item to see details.</p>
+            
+            <!-- Image that corresponds to the selected news item -->
+            <img id="news-image" src="" alt="News image">
+            
+            <!-- A link to the full article, which opens in a new tab -->
+            <a id="news-link" href="" target="_blank">Read More</a>
+        </div>
+    </main>
+
+    <!-- JavaScript file that will handle dynamic interactions, such as fetching and displaying news data -->
+    <script src="index.js"></script>
+</body>
+</html>
