@@ -38,7 +38,7 @@ This extension fetches news from **NewsAPI**. To use it, follow these steps:
    ```
    NEWS_API_KEY=your_api_key_here
    ```
-3. The extension will now fetch real-time cricket news.
+3. The extension will now fetch real-time news.
 
 ---
 
