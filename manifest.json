@@ -1,6 +1,6 @@
 {
     "name": "Poddar News",  // Name of the extension
-    "description": "Poddar News is a news app fetching the latest cricket news.",  // Short description of what the extension does
+    "description": "Poddar News is a news app fetching the latest news.",  // Short description of what the extension does
     "version": "1.0",  // Version of the extension
     "manifest_version": 3,  // Manifest version, currently version 3 is the latest
     "permissions": [  // Permissions required by the extension
