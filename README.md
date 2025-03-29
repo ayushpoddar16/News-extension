@@ -17,7 +17,7 @@ Follow these steps to install the extension in your Chrome browser:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/ayushpoddar16/News-extension.git
+   https://github.com/ayushpoddar16/News-extension.git
    ```
 2. **Open Chrome and go to:**
    ```
