@@ -1,6 +1,6 @@
 // Function to fetch news from API
 const getNews = async () => {
-    const res = await fetch("https://newsapi.org/v2/top-headlines?apiKey=1045e72defcf4f36a305ef18e8b7e546&q=cricket");
+    const res = await fetch("https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=1045e72defcf4f36a305ef18e8b7e546");
     const data = await res.json();
     
     const newsList = document.getElementById("news-items");

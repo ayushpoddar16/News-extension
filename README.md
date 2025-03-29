@@ -1,13 +1,15 @@
 # 📰 Poddar News - Chrome Extension
 
-Poddar News is a lightweight Chrome extension that provides the latest cricket news at your fingertips. Stay informed with real-time updates right from your browser!
+Poddar News is a lightweight Chrome extension that provides the latest news at your fingertips. Stay informed with real-time updates right from your browser!
 
-## 🚀 Features
+##🚀 Features
+✅ Fetches the latest news automatically
 
-- ✅ Fetches the latest cricket news automatically  
-- ✅ Click on any news headline to view full details  
-- ✅ User-friendly interface with an elegant design  
-- ✅ Works seamlessly within the Chrome browser  
+✅ Click on any news headline to view full details
+
+✅ User-friendly interface with an elegant design
+
+✅ Works seamlessly within the Chrome browser
 
 ## 📌 Installation Guide
 
@@ -15,7 +17,7 @@ Follow these steps to install the extension in your Chrome browser:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/ayushpoddar16/Circket-news-extension.git
+   git clone https://github.com/ayushpoddar16/News-extension.git
    ```
 2. **Open Chrome and go to:**
    ```
