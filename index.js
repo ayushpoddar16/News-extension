@@ -1,10 +1,14 @@
-// Function to fetch news from API
+// Import the config module
+import { config, loadConfig } from './config.js';
 
+// Function to fetch news from API
 const getNews = async () => {
-    const apiKey = process.env.NEWS_API_KEY;
+    // Make sure config is loaded
+    await loadConfig();
+    const apiKey = config.NEWS_API_KEY;
+    
     const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${apiKey}`);
     const data = await res.json();
-    
     const newsList = document.getElementById("news-items");
     
     // Loop through the news articles and create list items

@@ -17,5 +17,11 @@
     },
     "icons": {  // Defines different icon sizes for the extension
         "128": "icon.png"  // 128x128 pixel icon used for the extension in different contexts (such as the extension page)
-    }
+    },
+    "web_accessible_resources": [
+        {
+          "resources": [".env"],
+          "matches": ["<all_urls>"]
+        }
+      ]
 }
